@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webstudio</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./images/icons.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!---------------------------------------PageHeader section------------------------------------->
+    <header class="pageHeader">
+      <div class="container">
+        <!--navbar-->
+        <nav class="navbar">
+          <!--Logo-->
+          <a class="logo" href="./index.html">WebStudio</a>
+          <!--Menu-->
+          <ul class="navbar__menu">
+            <li>
+              <a class="navbar__link--current selected" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a class="navbar__link" href="./portafolio.html">Portfolio</a>
+            </li>
+            <li><a class="navbar__link" href="#">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <!--Contacs-->
+        <ul class="booking">
+          <li>
+            <a class="booking__link" href="mailto:info@devstudio.com"
+              ><svg class="booking__icon booking__icon--email">
+                <use href="./images/icons.svg#icon-sobre"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+
+          <li>
+            <a class="booking__link" href="tel:++380961111111"
+              ><svg class="booking__icon booking__icon--telephone">
+                <use href="./images/icons.svg#icon-telfono-inteligente"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-------------------------------- hero Section------------------------------------->
+      <!-- <section class="top-banner"> -->
+      <section class="hero">
+        <!-- <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1> -->
+        <h1 class="hero__text">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+
+        <!-- <button class="main-button" type="button" data-modal-open>
+          Request our service
+        </button> -->
+        <button class="hero__button" type="button" data-modal-open>
+          Request our service
+        </button>
+      </section>
+
+      <!-------------------------------about section------------------------------------>
+
+      <!-- <section class="section-about"> -->
+      <section class="about">
+        <!-- <div class="container"> -->
+        <div class="about__container">
+          <!-- <div class="display-about"> -->
+          <div class="about__display">
+            <!-- <div class="display-card"> -->
+            <div class="about__card">
+              <!-- <div class="icon-container"> -->
+              <div class="about__icon--bg">
+                <!-- <svg class="icon-about"> -->
+                <svg class="about__icon">
+                  <use href="./images/icons.svg#icon-antena"></use>
+                </svg>
+              </div>
+              <h3 class="about__tittle">ATTENTION TO DETAILS</h3>
+              <p class="about__text">
+                We go into all the details and processes of your business to
+                develop a customized solution.
+              </p>
+            </div>
+
+            <!-- <div class="display-card"> -->
+            <div class="about__card">
+              <!-- <div class="icon-container"> -->
+              <div class="about__icon--bg">
+                <!-- <svg class="icon-about"> -->
+                <svg class="about__icon">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="about__tittle">PUNCTUALITY</h3>
+
+              <!-- <p class="about-paragraph"> -->
+              <p class="about__text">
+                With us, you can feel safe and secure. An important principle of
+                the company: respect your time and respect the agreed deadlines.
+              </p>
+            </div>
+
+            <!-- <div class="display-card"> -->
+            <div class="about__card">
+              <!-- <div class="icon-containe"> -->
+              <div class="about__icon--bg">
+                <!-- <svg class="icon-about"> -->
+                <svg class="about__icon">
+                  <use href="./images/icons.svg#icon-computer"></use>
+                </svg>
+              </div>
+              <h3 class="about__tittle">PLANNING</h3>
+              <p class="about__text">
+                You will be able to observe and participate in every phase of
+                solution development and implementation.
+              </p>
+            </div>
+
+            <!-- <div class="display-card"> -->
+            <div class="about__card">
+              <!-- <div class="icon-container"> -->
+              <div class="about__icon--bg">
+                <!-- <svg class="icon-about"> -->
+
+                <svg class="about__icon">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="about__tittle">MODERN TECHNOLOGIES</h3>
+              <p class="about__text">
+                We use innovative tools to solve assigned tasks. It's time to
+                simplify work processes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------------3 images / what we do section------------------------------------>
+
+      <!-- <section class="images-section"> -->
+      <section class="image">
+        <!-- <div class="container"> -->
+        <div class="image__container">
+          <!-- <h2 class="main-tittles">What we do</h2> -->
+          <h2 class="image__tittle">What we do</h2>
+
+          <!-- <div class="display-images"> -->
+          <div class="image__display">
+            <div>
+              <!-- <a class="image-decoration" href="images/image1.jpg"> -->
+              <a class="image__decoration" href="images/image1.jpg">
+                <img
+                  src="images/image1.jpg"
+                  alt="A man typing"
+                  width="373"
+                  height="323"
+                />
+
+                <!-- <div class="text-container"> -->
+                <div class="image__text--container">
+                  <!-- <h3 class="text-image">DESKTOP APPS</h3> -->
+                  <h3 class="image__text">DESKTOP APPS</h3>
+                </div>
+              </a>
+            </div>
+
+            <div>
+              <!-- <a class="image-decoration" href="images/image2.jpg"> -->
+              <a class="image__decoration" href="images/image2.jpg">
+                <img
+                  src="images/image2.jpg"
+                  alt="Cellphone design"
+                  width="373"
+                  height="323"
+                />
+                <!-- <div class="text-container"> -->
+                <div class="image__text--container">
+                  <!-- <h3 class="text-image">Mobile APPS</h3> -->
+                  <h3 class="image__text">Mobile APPS</h3>
+                </div>
+              </a>
+            </div>
+
+            <div>
+              <!-- <a class="image-decoration" href="images/image3.jpg"> -->
+              <a class="image__decoration" href="images/image3.jpg">
+                <img
+                  src="images/image3.jpg"
+                  alt="Colors on a tablet"
+                  width="373"
+                  height="323"
+                />
+
+                <!-- <div class="text-container"> -->
+                <div class="image__text--container">
+                  <!-- <h3 class="text-image">DESIGN SOLUTIONS</h3> -->
+                  <h3 class="image__text">DESIGN SOLUTIONS</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------------------our team section----------------------------------------->
+
+      <!-- <section class="section-our-team"> -->
+      <section class="team">
+        <!-- <div class="container"> -->
+        <div class="team__container">
+          <!-- <h2 class="main-tittles">Our Team</h2> -->
+          <h2 class="team__tittle">Our Team</h2>
+
+          <!-- <div class="team-cards"> -->
+          <div class="team__card">
+            <!-- <div class="team-photos"> -->
+            <div class="team__photo">
+              <a href="images/image4.jpg">
+                <img
+                  src="images/image4.jpg"
+                  alt="Image Christopher Walker"
+                  width="270"
+                  height="260"
+                />
+              </a>
+              <h4>Christopher Walker</h4>
+
+              <!-- <p class="job-tittle">Product Designer</p> -->
+              <p class="team__job-tittle">Product Designer</p>
+
+              <!-- <div class="team-icon-container"> -->
+              <div class="team__icon--container">
+                <a class="team__icon--link" href="#">
+                  <!-- <svg class="team-icons"> -->
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- <div class="team-photos"> -->
+            <div class="team__photo">
+              <a href="images/image5.jpg">
+                <img
+                  src="images/image5.jpg"
+                  alt="Image Kylie Evans"
+                  width="270"
+                  height="260"
+                />
+              </a>
+
+              <h4>Kylie Evans</h4>
+              <!-- <p class="job-tittle">Frontend Developer</p> -->
+              <p class="team__job-tittle">Frontend Developer</p>
+
+              <!-- <div class="team-icon-container"> -->
+              <div class="team__icon--container">
+                <a class="team__icon--link" href="#">
+                  <!-- <svg class="team-icons"> -->
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <!-- <a class="team-icon-link" href="#"> -->
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="team__photo">
+              <a href="images/image6.jpg">
+                <img
+                  src="images/image6.jpg"
+                  alt="Iamge Ryan Harris"
+                  width="270"
+                  height="260"
+                />
+              </a>
+              <h4>Ryan Harris</h4>
+
+              <p class="team__job-tittle">Marketing</p>
+
+              <!-- <div class="team-icon-container"> -->
+              <div class="team__icon--container">
+                <!-- <a class="team-icon-link" href="#"> -->
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+
+                <!-- <a class="team-icon-link" href="#"> -->
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <!-- <a class="team-icon-link" href="#"> -->
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+
+                <!-- <a class="team-icon-link" href="#"> -->
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="team__photo">
+              <a href="images/image7.jpg">
+                <img
+                  src="images/image7.jpg"
+                  alt="Image Tyler Moore"
+                  width="270"
+                  height="260"
+                />
+              </a>
+              <h4>Tyler Moore</h4>
+
+              <p class="team__job-tittle">UI Designer</p>
+
+              <div class="team__icon--container">
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a class="team__icon--link" href="#">
+                  <svg class="team__icon">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------Regular customers section------------------------->
+
+      <!-- <section class="cus-section"> -->
+      <section class="cust">
+        <!-- <div class="container"> -->
+        <div class="cust__container">
+          <h2 class="cust__tittle">Regular Customers</h2>
+
+          <!-- <div class="cus-icons"> -->
+          <div class="cust__section-logo">
+            <!-- <div class="cus-icons-container"> -->
+            <div class="cust__logo-container">
+              <a class="cust__logo-link" href="#">
+                <!-- <svg class="icons"> -->
+                <svg class="cust__logo">
+                  <use href="./images/icons.svg#icon-company"></use>
+                </svg>
+              </a>
+            </div>
+            <!-- <div class="cus-icons-container"> -->
+            <div class="cust__logo-container">
+              <a class="cust__logo-link" href="#">
+                <!-- <svg class="icons"> -->
+                <svg class="cust__logo">
+                  <use href="./images/icons.svg#icon-company-2-2"></use>
+                </svg>
+              </a>
+            </div>
+
+            <!-- <div class="cus-icons-container"> -->
+            <div class="cust__logo-container">
+              <a class="cust__logo-link" href="#">
+                <!-- <svg class="icons"> -->
+                <svg class="cust__logo">
+                  <use href="./images/icons.svg#icon-company-3-3"></use>
+                </svg>
+              </a>
+            </div>
+
+            <!-- <div class="cus-icons-container"> -->
+            <div class="cust__logo-container">
+              <a class="cust__logo-link" href="#">
+                <!-- <svg class="icons"> -->
+                <svg class="cust__logo">
+                  <use href="./images/icons.svg#icon-company-4-4"></use>
+                </svg>
+              </a>
+            </div>
+            <!-- <div class="cus-icons-container"> -->
+            <div class="cust__logo-container">
+              <a class="cust__logo-link" href="#">
+                <!-- <svg class="icons"> -->
+                <svg class="cust__logo">
+                  <use href="./images/icons.svg#icon-company-5-5"></use>
+                </svg>
+              </a>
+            </div>
+
+            <!-- <div class="cus-icons-container"> -->
+            <div class="cust__logo-container">
+              <a class="cust__logo-link" href="#">
+                <!-- <svg class="icons"> -->
+                <svg class="cust__logo">
+                  <use href="./images/icons.svg#icon-company-6-6"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--------------------------------footer--------------------------------------->
+
+    <footer class="footer">
+      <div class="footer__container">
+        <!-- <div class="footer-container"> -->
+        <div class="footer__content">
+          <address>
+            <!-- <a class="logo logo-footer" href="#">WebStudio</a> -->
+            <a class="logo footer__logo" href="#">WebStudio</a>
+            <div>
+              <!-- <div class="address"> -->
+              <div class="footer__address">
+                695 Park Ave, New York, NY 10065, <br />
+                United States
+              </div>
+            </div>
+            <!-- <div class="footer-contact"> -->
+            <div class="footer__contact">
+              <div>
+                <!-- <a class="footer-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                > -->
+                <a class="footer__link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </div>
+              <div>
+                <!-- <a class="footer-link" href="tel:+12127724150"
+                  >+1 212-772-4150</a
+                > -->
+                <a class="footer__link" href="tel:+12127724150"
+                  >+1 212-772-4150</a
+                >
+              </div>
+            </div>
+          </address>
+
+          <!--footer icons-->
+          <div>
+            <!-- <p class="find-text"><strong>FIND US ON</strong></p> -->
+            <p class="footer__text"><strong>FIND US ON</strong></p>
+
+            <!-- <div class="find-icon-container"> -->
+            <div class="footer__text-container">
+              <!-- <a class="find-icon-link" href="#"> -->
+              <a class="footer__icon--link" href="#">
+                <!-- <svg class="find-icon"> -->
+                <svg class="footer__icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+              <!-- <a class="find-icon-link" href="#"> -->
+              <a class="footer__icon--link" href="#">
+                <!-- <svg class="find-icon"> -->
+                <svg class="footer__icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <!-- <a class="find-icon-link" href="#"> -->
+              <a class="footer__icon--link" href="#">
+                <!-- <svg class="find-icon"> -->
+                <svg class="footer__icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+
+              <!-- <a class="find-icon-link" href="#"> -->
+              <a class="footer__icon--link" href="#">
+                <!-- <svg class="find-icon"> -->
+                <svg class="footer__icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!--------------------------footer newsletter-------------------------->
+
+          <div>
+            <!-- <h4 class="newsletter-tittle">SUBSCRIBE TO THE NEWSLETTER</h4> -->
+            <h4 class="footer__newsletter-tittle">
+              SUBSCRIBE TO THE NEWSLETTER
+            </h4>
+            <form>
+              <label for="input-email"></label>
+
+              <!-- <div class="newsletter-group"> -->
+              <div class="footer__newsletter-group">
+                <!-- <input class="newsletter-form-input" -->
+                <input
+                  class="footer__newsletter-form-input"
+                  type="email"
+                  name="email"
+                  id="input-newsletter-email"
+                  placeholder="E-mail"
+                />
+
+                <!-- <button class="newsletter-button" type="submit"> -->
+                <button class="footer__newsletter-button" type="submit">
+                  Subscribe
+                  <!-- <svg class="newsletter-icon"> -->
+                  <svg class="footer__newsletter-icon">
+                    <use href="./images/icons.svg#icon-icon-send"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!------------------------------modal window--------------------------------------->
+
+    <!-- <div class="backdrop is-hidden" data-modal> -->
+    <div class="backdrop is-hidden" data-modal>
+      <!-- <div class="modal"> -->
+      <div class="modal">
+        <!-- <button class="backdrop-button" type="button" data-modal-close> -->
+        <button class="modal__backdrop-button" type="button" data-modal-close>
+          X
+        </button>
+
+        <!------------------------------modal window content--------------------------------------->
+        <!-- <h3 class="modal-tittle"> -->
+        <h3 class="form__tittle">
+          Leave your information and we´ll call you back
+        </h3>
+
+        <form>
+          <label for="input-name"> Name </label>
+
+          <!-- <div class="modal-form-input-group"> -->
+          <div class="form">
+            <!-- <input
+              class="modal-form-input" -->
+            <input
+              class="form__input"
+              type="text"
+              name="name"
+              id="input-name"
+            />
+            <!-- <svg class="modal-form-svg"> -->
+            <svg class="form__svg">
+              <use href="./images/icons.svg#icon-person-black"></use>
+            </svg>
+          </div>
+
+          <label for="input-telephone"> Telephone </label>
+
+          <!-- <div class="modal-form-input-group"> -->
+          <div class="form">
+            <!-- <input
+              class="modal-form-input" -->
+            <input
+              class="form__input"
+              type="tel"
+              name="telephone"
+              id="input-telephone"
+            />
+            <!-- <svg class="modal-form-svg"> -->
+            <svg class="form__svg">
+              <use href="./images/icons.svg#icon-phone-black"></use>
+            </svg>
+          </div>
+
+          <label for="input-email"> E-mail </label>
+
+          <div class="form">
+            <!-- <div class="modal_form-input--group"> -->
+            <!-- <input
+              class="modal-form-input" -->
+            <input
+              class="form__input"
+              type="email"
+              name="email"
+              id="input-email"
+            />
+            <!-- <svg class="modal-form-svg"> -->
+            <svg class="form__svg">
+              <use href="./images/icons.svg#icon-email-black"></use>
+            </svg>
+          </div>
+
+          <label>
+            Comments
+            <textarea
+              class="form__textarea"
+              name="comments"
+              rows="8"
+              placeholder="Text here"
+            ></textarea>
+          </label>
+
+          <!-- <div class="checkbox"> -->
+          <div class="form__checkbox">
+            <input type="checkbox" id="active" />
+
+            <!-- <label class="checkbox-label" for="active">I agree with the newsletter and accept the Terms and Conditions</label> -->
+            <label for="active"
+              >I agree with the newsletter and accept the Terms and
+              Conditions</label
+            >
+          </div>
+
+          <!-- <button class="button-input" type="submit">Send</button> -->
+          <button class="form__button-input" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
